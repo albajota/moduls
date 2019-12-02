@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>modulos_flecha</title>
+    <style type="text/css">
+        :root{
+            --fondo: black;
+            --figura: white;
+            --sobre: red;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .f1, .f2, .f3, .f4, .f5, .f6, .f7{
+            width: 100%;
+            display: flex;
+        }
+        div>div{
+            flex-grow: 1;
+            height: 100px;
+            background: var(--fondo);
+        }
+        div>div:hover{
+            background: var(--sobre);
+        }
+        .f2 div:nth-child(4){
+            background: var(--figura);
+            cursor: grab;
+        }
+        .f3 div:nth-child(3), .f3 div:nth-child(4), .f3 div:nth-child(5){
+            background: var(--figura);
+            cursor: grab;
+        }
+        .f4 div:nth-child(2), .f4 div:nth-child(3), .f4 div:nth-child(4), .f4 div:nth-child(5), .f4 div:nth-child(6){
+            background: var(--figura);
+            cursor: grab;
+        }
+        .f5 div:nth-child(4), .f6 div:nth-child(4), .f7 div:nth-child(4){
+            background: var(--figura);
+            cursor: grab;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="f1">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="f2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="f3">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="f4">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="f5">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="f6">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="f7">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </main>
+</body>
+</html>
